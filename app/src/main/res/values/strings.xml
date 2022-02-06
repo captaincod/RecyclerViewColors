@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecyclerViewColors</string>
+    <string name="generate">Сгенерировать список</string>
+    <string name="template">#%1$08x</string>
+</resources>

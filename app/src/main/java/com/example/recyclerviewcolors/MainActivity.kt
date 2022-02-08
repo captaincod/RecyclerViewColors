@@ -15,11 +15,8 @@ class MainActivity : AppCompatActivity() {
 
     var planetsList = arrayListOf<String>("Mercury", "Venus", "Earth", "Mars", "Jupiter")
 
-    // TODO: реализовать генерацию цветов определённой палитры
-
-    val colorsList = mutableListOf(Color.YELLOW, Color.RED, Color.GREEN, Color.MAGENTA)
-    // val colorsList = resources.getIntArray(R.array.array_of_colors).toMutableList()
-    // val colorsList = mutableListOf(R.color.AliceBlue, R.color.AntiqueWhite)
+    // val colorsList = mutableListOf(Color.YELLOW, Color.RED, Color.GREEN, Color.MAGENTA)
+    val colorsList = resources.getIntArray(R.array.colors).toMutableList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

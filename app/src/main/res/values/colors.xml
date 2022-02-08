@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="White">#FFFFFF</color>
-    <color name="Maroon">#800000</color>
-    <color name="Red">#FF0000</color>
-    <color name="OrangeRed">#FF4500</color>
-    <color name="Orange">#FFA500</color>
-    <color name="Gold">#FFD700</color>
-    <color name="DarkGreen">#006400</color>
-    <color name="Green">#008000</color>
-    <color name="Lime">#00FF00</color>
-    <color name="SpringGreen">#00FF7F</color>
-    <color name="Cyan">#00FFFF</color>
-    <color name="Teal">#008080</color>
-    <color name="Blue">#0000FF</color>
-    <color name="Navy">#000080</color>
-    <color name="DarkViolet">#9400D3</color>
-    <color name="Purple">#800080</color>
-    <color name="HotPink">#FF69B4</color>
-    <color name="Crimson">#DC143C</color>
-    <color name="Black">#000000</color>
+    <color name="White">#FFFFFFFF</color>
+    <color name="Maroon">#FF800000</color>
+    <color name="Red">#FFFF0000</color>
+    <color name="OrangeRed">#FFFF4500</color>
+    <color name="Orange">#FFFFA500</color>
+    <color name="Gold">#FFFFD700</color>
+    <color name="DarkGreen">#FF006400</color>
+    <color name="Green">#FF008000</color>
+    <color name="Lime">#FF00FF00</color>
+    <color name="SpringGreen">#FF00FF7F</color>
+    <color name="Cyan">#FF00FFFF</color>
+    <color name="Teal">#FF008080</color>
+    <color name="Blue">#FF0000FF</color>
+    <color name="Navy">#FF000080</color>
+    <color name="DarkViolet">#FF9400D3</color>
+    <color name="Purple">#FF800080</color>
+    <color name="HotPink">#FFFF69B4</color>
+    <color name="Crimson">#FFDC143C</color>
+    <color name="Black">#FF000000</color>
 
     <array name="colors">
         <item>@color/Maroon</item>
@@ -39,4 +39,11 @@
         <item>@color/HotPink</item>
         <item>@color/Crimson</item>
     </array>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
 </resources>

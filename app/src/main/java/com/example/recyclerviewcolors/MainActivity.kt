@@ -13,21 +13,17 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
-    var planetsList = arrayListOf<String>("Mercury", "Venus", "Earth", "Mars", "Jupiter")
+    // var planetsList = arrayListOf<String>("Mercury", "Venus", "Earth", "Mars", "Jupiter")
 
     // val colorsList = mutableListOf(Color.YELLOW, Color.RED, Color.GREEN, Color.MAGENTA)
-    val colorsList = resources.getIntArray(R.array.colors).toMutableList()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // пример использования ListView
-        val lv = findViewById<ListView>(R.id.list)
-        val adapter = ArrayAdapter(this, R.layout.support_simple_spinner_dropdown_item, planetsList)
-        lv.adapter = adapter
-
         // пример использования RecyclerView с собственным адаптером
+        val colorsList = resources.getIntArray(R.array.colors).toMutableList()
         val rv = findViewById<RecyclerView>(R.id.rview)
         val colorAdapter = ColorAdapter(LayoutInflater.from(this))
         // добавляем данные в список для отображения
@@ -37,6 +33,10 @@ class MainActivity : AppCompatActivity() {
 
 
         /*
+        пример использования ListView
+        val lv = findViewById<ListView>(R.id.list)
+        val adapter = ArrayAdapter(this, R.layout.support_simple_spinner_dropdown_item, planetsList)
+        lv.adapter = adapter
         val button = findViewById<Button>(R.id.generate)
         button.setOnClickListener {
             planetsList.shuffle()
